@@ -1,0 +1,149 @@
+2023-01-28 17:18:08,123 INFO    StreamThr :36165 [internal.py:wandb_internal():88] W&B internal server running at pid: 36165, started at: 2023-01-28 17:18:08.122496
+2023-01-28 17:18:08,125 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: status
+2023-01-28 17:18:08,126 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: status
+2023-01-28 17:18:08,128 INFO    WriterThread:36165 [datastore.py:open_for_write():75] open: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/run-33s7h75n.wandb
+2023-01-28 17:18:08,128 DEBUG   SenderThread:36165 [sender.py:send():303] send: header
+2023-01-28 17:18:08,128 DEBUG   SenderThread:36165 [sender.py:send():303] send: run
+2023-01-28 17:18:08,384 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: check_version
+2023-01-28 17:18:08,385 INFO    SenderThread:36165 [dir_watcher.py:__init__():216] watching files in: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files
+2023-01-28 17:18:08,385 INFO    SenderThread:36165 [sender.py:_start_run_threads():928] run started: 33s7h75n with start time 1674955088.113573
+2023-01-28 17:18:08,385 DEBUG   SenderThread:36165 [sender.py:send():303] send: summary
+2023-01-28 17:18:08,385 INFO    SenderThread:36165 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-28 17:18:08,385 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: check_version
+2023-01-28 17:18:08,443 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: run_start
+2023-01-28 17:18:08,444 DEBUG   HandlerThread:36165 [meta.py:__init__():34] meta init
+2023-01-28 17:18:08,446 DEBUG   HandlerThread:36165 [meta.py:__init__():49] meta init done
+2023-01-28 17:18:08,446 DEBUG   HandlerThread:36165 [meta.py:probe():215] probe
+2023-01-28 17:18:08,450 DEBUG   HandlerThread:36165 [git.py:repo():40] git repository is invalid
+2023-01-28 17:18:08,450 DEBUG   HandlerThread:36165 [meta.py:_save_pip():53] save pip
+2023-01-28 17:18:08,451 DEBUG   HandlerThread:36165 [meta.py:_save_pip():67] save pip done
+2023-01-28 17:18:08,451 DEBUG   HandlerThread:36165 [meta.py:_save_conda():74] save conda
+2023-01-28 17:18:09,391 INFO    Thread-13 :36165 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/requirements.txt
+2023-01-28 17:18:09,391 INFO    Thread-13 :36165 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/wandb-summary.json
+2023-01-28 17:18:09,391 INFO    Thread-13 :36165 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/conda-environment.yaml
+2023-01-28 17:18:09,960 DEBUG   HandlerThread:36165 [meta.py:_save_conda():84] save conda done
+2023-01-28 17:18:09,960 DEBUG   HandlerThread:36165 [meta.py:probe():253] probe done
+2023-01-28 17:18:09,990 DEBUG   SenderThread:36165 [sender.py:send():303] send: telemetry
+2023-01-28 17:18:09,990 DEBUG   SenderThread:36165 [sender.py:send():303] send: files
+2023-01-28 17:18:09,990 INFO    SenderThread:36165 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-01-28 17:18:09,992 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: stop_status
+2023-01-28 17:18:09,992 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: stop_status
+2023-01-28 17:18:10,099 DEBUG   SenderThread:36165 [sender.py:send():303] send: telemetry
+2023-01-28 17:18:10,401 INFO    Thread-13 :36165 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/conda-environment.yaml
+2023-01-28 17:18:10,401 INFO    Thread-13 :36165 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/output.log
+2023-01-28 17:18:10,402 INFO    Thread-13 :36165 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/wandb-metadata.json
+2023-01-28 17:18:10,467 INFO    Thread-17 :36165 [upload_job.py:push():143] Uploaded file /var/folders/cd/5v151v6n1j94rybx432bn1nw0000gn/T/tmp3ux87gstwandb/zobqqdzm-wandb-metadata.json
+2023-01-28 17:18:12,412 INFO    Thread-13 :36165 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/output.log
+2023-01-28 17:18:16,432 INFO    Thread-13 :36165 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/output.log
+2023-01-28 17:18:25,128 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: stop_status
+2023-01-28 17:18:25,129 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: stop_status
+2023-01-28 17:18:29,912 DEBUG   SenderThread:36165 [sender.py:send():303] send: exit
+2023-01-28 17:18:29,912 INFO    SenderThread:36165 [sender.py:send_exit():442] handling exit code: 1
+2023-01-28 17:18:29,913 INFO    SenderThread:36165 [sender.py:send_exit():444] handling runtime: 21
+2023-01-28 17:18:29,914 INFO    SenderThread:36165 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-28 17:18:29,914 INFO    SenderThread:36165 [sender.py:send_exit():450] send defer
+2023-01-28 17:18:29,915 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:29,915 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 0
+2023-01-28 17:18:29,915 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:29,915 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-01-28 17:18:29,915 INFO    SenderThread:36165 [sender.py:transition_state():463] send defer: 1
+2023-01-28 17:18:29,915 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:29,915 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 1
+2023-01-28 17:18:30,479 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:30,480 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-01-28 17:18:30,480 INFO    SenderThread:36165 [sender.py:transition_state():463] send defer: 2
+2023-01-28 17:18:30,480 DEBUG   SenderThread:36165 [sender.py:send():303] send: stats
+2023-01-28 17:18:30,480 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:30,480 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 2
+2023-01-28 17:18:30,480 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:30,480 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-01-28 17:18:30,480 INFO    SenderThread:36165 [sender.py:transition_state():463] send defer: 3
+2023-01-28 17:18:30,480 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:30,480 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 3
+2023-01-28 17:18:30,481 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:30,481 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-01-28 17:18:30,481 INFO    SenderThread:36165 [sender.py:transition_state():463] send defer: 4
+2023-01-28 17:18:30,481 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:30,481 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 4
+2023-01-28 17:18:30,481 DEBUG   SenderThread:36165 [sender.py:send():303] send: summary
+2023-01-28 17:18:30,481 INFO    SenderThread:36165 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-28 17:18:30,481 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:30,481 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-01-28 17:18:30,481 INFO    SenderThread:36165 [sender.py:transition_state():463] send defer: 5
+2023-01-28 17:18:30,481 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:30,481 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 5
+2023-01-28 17:18:30,481 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:30,481 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-01-28 17:18:30,491 INFO    Thread-13 :36165 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/wandb-summary.json
+2023-01-28 17:18:30,609 INFO    SenderThread:36165 [sender.py:transition_state():463] send defer: 6
+2023-01-28 17:18:30,610 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:30,610 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 6
+2023-01-28 17:18:30,610 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:30,610 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-01-28 17:18:30,910 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: poll_exit
+2023-01-28 17:18:31,498 INFO    Thread-13 :36165 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/config.yaml
+2023-01-28 17:18:32,368 INFO    SenderThread:36165 [sender.py:transition_state():463] send defer: 7
+2023-01-28 17:18:32,369 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: poll_exit
+2023-01-28 17:18:32,371 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:32,372 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 7
+2023-01-28 17:18:32,372 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:32,372 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-01-28 17:18:32,372 INFO    SenderThread:36165 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-28 17:18:32,501 INFO    Thread-13 :36165 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/output.log
+2023-01-28 17:18:32,503 INFO    SenderThread:36165 [dir_watcher.py:finish():392] scan: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files
+2023-01-28 17:18:32,503 INFO    SenderThread:36165 [dir_watcher.py:finish():406] scan save: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/requirements.txt requirements.txt
+2023-01-28 17:18:32,503 INFO    SenderThread:36165 [dir_watcher.py:finish():406] scan save: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/output.log output.log
+2023-01-28 17:18:32,511 INFO    SenderThread:36165 [dir_watcher.py:finish():406] scan save: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/config.yaml config.yaml
+2023-01-28 17:18:32,515 INFO    SenderThread:36165 [dir_watcher.py:finish():406] scan save: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/wandb-summary.json wandb-summary.json
+2023-01-28 17:18:32,519 INFO    SenderThread:36165 [dir_watcher.py:finish():406] scan save: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/conda-environment.yaml conda-environment.yaml
+2023-01-28 17:18:32,522 INFO    SenderThread:36165 [dir_watcher.py:finish():406] scan save: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/wandb-metadata.json wandb-metadata.json
+2023-01-28 17:18:32,523 INFO    SenderThread:36165 [sender.py:transition_state():463] send defer: 8
+2023-01-28 17:18:32,527 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:32,527 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 8
+2023-01-28 17:18:32,528 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:32,528 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-01-28 17:18:32,528 INFO    SenderThread:36165 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-28 17:18:33,014 INFO    Thread-21 :36165 [upload_job.py:push():143] Uploaded file /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/wandb-summary.json
+2023-01-28 17:18:33,015 INFO    Thread-22 :36165 [upload_job.py:push():143] Uploaded file /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/conda-environment.yaml
+2023-01-28 17:18:33,015 INFO    Thread-20 :36165 [upload_job.py:push():143] Uploaded file /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/config.yaml
+2023-01-28 17:18:33,018 INFO    Thread-18 :36165 [upload_job.py:push():143] Uploaded file /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/requirements.txt
+2023-01-28 17:18:33,032 INFO    Thread-19 :36165 [upload_job.py:push():143] Uploaded file /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/files/output.log
+2023-01-28 17:18:33,236 INFO    Thread-12 :36165 [sender.py:transition_state():463] send defer: 9
+2023-01-28 17:18:33,238 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:33,238 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 9
+2023-01-28 17:18:33,238 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:33,238 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-01-28 17:18:33,238 INFO    SenderThread:36165 [file_pusher.py:join():173] waiting for file pusher
+2023-01-28 17:18:33,239 INFO    SenderThread:36165 [sender.py:transition_state():463] send defer: 10
+2023-01-28 17:18:33,239 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:33,239 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 10
+2023-01-28 17:18:33,239 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:33,240 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-01-28 17:18:33,334 INFO    SenderThread:36165 [sender.py:transition_state():463] send defer: 11
+2023-01-28 17:18:33,336 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:33,336 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 11
+2023-01-28 17:18:33,337 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:33,337 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-01-28 17:18:33,337 INFO    SenderThread:36165 [sender.py:transition_state():463] send defer: 12
+2023-01-28 17:18:33,339 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: defer
+2023-01-28 17:18:33,339 DEBUG   SenderThread:36165 [sender.py:send():303] send: final
+2023-01-28 17:18:33,339 INFO    HandlerThread:36165 [handler.py:handle_request_defer():161] handle defer: 12
+2023-01-28 17:18:33,339 DEBUG   SenderThread:36165 [sender.py:send():303] send: footer
+2023-01-28 17:18:33,340 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: defer
+2023-01-28 17:18:33,340 INFO    SenderThread:36165 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-01-28 17:18:33,343 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: poll_exit
+2023-01-28 17:18:33,344 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: server_info
+2023-01-28 17:18:33,344 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: poll_exit
+2023-01-28 17:18:33,344 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: get_summary
+2023-01-28 17:18:33,345 DEBUG   SenderThread:36165 [sender.py:send_request():317] send_request: server_info
+2023-01-28 17:18:33,346 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: sampled_history
+2023-01-28 17:18:33,596 INFO    MainThread:36165 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2023-01-28 17:18:33,597 INFO    MainThread:36165 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2023-01-28 17:18:33,597 INFO    MainThread:36165 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2023-01-28 17:18:33,599 DEBUG   HandlerThread:36165 [handler.py:handle_request():138] handle_request: shutdown
+2023-01-28 17:18:33,599 INFO    HandlerThread:36165 [handler.py:finish():814] shutting down handler
+2023-01-28 17:18:34,340 INFO    WriterThread:36165 [datastore.py:close():279] close: /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_171808-33s7h75n/run-33s7h75n.wandb
+2023-01-28 17:18:34,599 INFO    SenderThread:36165 [sender.py:finish():1331] shutting down sender
+2023-01-28 17:18:34,599 INFO    SenderThread:36165 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-28 17:18:34,599 INFO    SenderThread:36165 [file_pusher.py:join():173] waiting for file pusher
+2023-01-28 17:18:35,277 INFO    MainThread:36165 [internal.py:handle_exit():78] Internal process exited

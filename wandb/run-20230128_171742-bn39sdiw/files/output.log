@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/sagar/Desktop/Ace/Brovo5/playground.py", line 43, in <module>
+    main()
+  File "/Users/sagar/Desktop/Ace/Brovo5/playground.py", line 18, in main
+    model = get_model(num_classes=6)
+  File "/Users/sagar/Desktop/Ace/Brovo5/model.py", line 10, in __init__
+    self.model.classifier[1]=torch.nn.Linear(1280,self.num_class)
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1207, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'get_model' object has no attribute 'num_class'

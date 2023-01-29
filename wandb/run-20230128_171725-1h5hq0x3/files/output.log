@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/sagar/Desktop/Ace/Brovo5/playground.py", line 43, in <module>
+    main()
+  File "/Users/sagar/Desktop/Ace/Brovo5/playground.py", line 18, in main
+    model = get_model(num_class=6)
+TypeError: __init__() got an unexpected keyword argument 'num_class'

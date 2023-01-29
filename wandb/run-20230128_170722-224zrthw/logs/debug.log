@@ -1,0 +1,26 @@
+2023-01-28 17:07:22,413 INFO    MainThread:35842 [wandb_setup.py:_flush():68] Configure stats pid to 35842
+2023-01-28 17:07:22,414 INFO    MainThread:35842 [wandb_setup.py:_flush():68] Loading settings from /Users/sagar/.config/wandb/settings
+2023-01-28 17:07:22,414 INFO    MainThread:35842 [wandb_setup.py:_flush():68] Loading settings from /Users/sagar/Desktop/Ace/Brovo5/wandb/settings
+2023-01-28 17:07:22,414 INFO    MainThread:35842 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-28 17:07:22,414 INFO    MainThread:35842 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'playground.py', 'program': '/Users/sagar/Desktop/Ace/Brovo5/playground.py'}
+2023-01-28 17:07:22,414 INFO    MainThread:35842 [wandb_init.py:_log_setup():476] Logging user logs to /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_170722-224zrthw/logs/debug.log
+2023-01-28 17:07:22,414 INFO    MainThread:35842 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/sagar/Desktop/Ace/Brovo5/wandb/run-20230128_170722-224zrthw/logs/debug-internal.log
+2023-01-28 17:07:22,414 INFO    MainThread:35842 [wandb_init.py:init():516] calling init triggers
+2023-01-28 17:07:22,415 INFO    MainThread:35842 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-01-28 17:07:22,415 INFO    MainThread:35842 [wandb_init.py:init():569] starting backend
+2023-01-28 17:07:22,415 INFO    MainThread:35842 [wandb_init.py:init():573] setting up manager
+2023-01-28 17:07:22,425 INFO    MainThread:35842 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-01-28 17:07:22,426 INFO    MainThread:35842 [wandb_init.py:init():580] backend started and connected
+2023-01-28 17:07:22,429 INFO    MainThread:35842 [wandb_init.py:init():658] updated telemetry
+2023-01-28 17:07:22,430 INFO    MainThread:35842 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-01-28 17:07:22,697 INFO    MainThread:35842 [wandb_run.py:_on_init():2000] communicating current version
+2023-01-28 17:07:22,763 INFO    MainThread:35842 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.9 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-01-28 17:07:22,763 INFO    MainThread:35842 [wandb_init.py:init():728] starting run threads in backend
+2023-01-28 17:07:24,312 INFO    MainThread:35842 [wandb_run.py:_console_start():1980] atexit reg
+2023-01-28 17:07:24,313 INFO    MainThread:35842 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2023-01-28 17:07:24,313 INFO    MainThread:35842 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2023-01-28 17:07:24,313 INFO    MainThread:35842 [wandb_run.py:_redirect():1925] Redirects installed.
+2023-01-28 17:07:24,313 INFO    MainThread:35842 [wandb_init.py:init():765] run started, returning control to user process
+2023-01-28 17:07:34,820 WARNING MsgRouterThr:35842 [router.py:message_loop():77] message_loop has been closed

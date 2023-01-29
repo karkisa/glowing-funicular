@@ -1,0 +1,21 @@
+/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=EfficientNet_B0_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_B0_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+GPU available: True (mps), used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py:1789: UserWarning: MPS available but not used. Set `accelerator` and `devices` using `Trainer(accelerator='mps', devices=1)`.
+  rank_zero_warn(
+Missing logger folder: /Users/sagar/Desktop/Ace/Brovo5/lightning_logs
+  | Name  | Type             | Params
+-------------------------------------------
+0 | model | get_model        | 4.0 M
+1 | loss  | CrossEntropyLoss | 0
+-------------------------------------------
+4.0 M     Trainable params
+0         Non-trainable params
+4.0 M     Total params
+16.061    Total estimated model params size (MB)
+Sanity Checking DataLoader 0:   0%|                                                                        | 0/2 [00:00<?, ?it/s]> /Users/sagar/Desktop/Ace/Brovo5/logic.py(70)validation_step()

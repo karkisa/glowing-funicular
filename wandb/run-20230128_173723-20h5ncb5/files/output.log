@@ -1,0 +1,64 @@
+/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=EfficientNet_B0_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_B0_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+GPU available: True (mps), used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py:1789: UserWarning: MPS available but not used. Set `accelerator` and `devices` using `Trainer(accelerator='mps', devices=1)`.
+  rank_zero_warn(
+Missing logger folder: /Users/sagar/Desktop/Ace/Brovo5/lightning_logs
+  | Name  | Type             | Params
+-------------------------------------------
+0 | model | get_model        | 4.0 M
+1 | loss  | CrossEntropyLoss | 0
+-------------------------------------------
+4.0 M     Trainable params
+0         Non-trainable params
+4.0 M     Total params
+16.061    Total estimated model params size (MB)
+
+Sanity Checking DataLoader 0:   0%|                                                                        | 0/2 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/sagar/Desktop/Ace/Brovo5/playground.py", line 43, in <module>
+    main()
+  File "/Users/sagar/Desktop/Ace/Brovo5/playground.py", line 39, in main
+    Trainer.fit(Classifier)
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 735, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1166, in _run
+    results = self._run_stage()
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1252, in _run_stage
+    return self._run_train()
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1274, in _run_train
+    self._run_sanity_check()
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1343, in _run_sanity_check
+    val_loop.run()
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 143, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 240, in _evaluation_step
+    output = self.trainer._call_strategy_hook(hook_name, *kwargs.values())
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1704, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 370, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/Users/sagar/Desktop/Ace/Brovo5/logic.py", line 71, in validation_step
+    loss_on_step = self.loss(outputs,targets)
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/torch/nn/modules/loss.py", line 1164, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/Users/sagar/opt/miniconda3/envs/Bravo13/lib/python3.9/site-packages/torch/nn/functional.py", line 3014, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+TypeError: cross_entropy_loss(): argument 'input' (position 1) must be Tensor, not NoneType

@@ -1,0 +1,16 @@
+{
+    "os": "macOS-12.5.1-arm64-arm-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-01-29T01:08:08.035949",
+    "startedAt": "2023-01-29T01:08:07.659501",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/sagar/Desktop/Ace/Brovo5/playground.py",
+    "codePath": "playground.py",
+    "host": "10-248-54-109.wireless.oregonstate.edu",
+    "username": "sagar",
+    "executable": "/Users/sagar/opt/miniconda3/envs/Bravo13/bin/python"
+}
